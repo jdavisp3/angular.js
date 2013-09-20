@@ -89,7 +89,7 @@ var inputType = {
    *
    * @description
    * Text input with number validation and transformation. Sets the `number` validation
-   * error if not a valid number.
+   * error if the input is not a valid number.
    *
    * @param {string} ngModel Assignable angular expression to data-bind to.
    * @param {string=} name Property name of the form under which the control is published.
@@ -227,8 +227,8 @@ var inputType = {
    * @name ng.directive:input.email
    *
    * @description
-   * Text input with email validation. Sets the `email` validation error key if not a valid email
-   * address.
+   * Text input with email validation. Sets the `email` validation error key if the input is
+   * not a valid email address.
    *
    * @param {string} ngModel Assignable angular expression to data-bind to.
    * @param {string=} name Property name of the form under which the control is published.
